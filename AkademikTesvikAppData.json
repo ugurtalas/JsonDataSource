@@ -1,0 +1,122 @@
+{
+  "Version": 1.0,
+  "IsRequireUpdate": false,
+  "Unvan": [
+    { "id": 1, "Ad": "Profesör", "KisaAd": "Prof.", "Carpan": 1 },
+    { "id": 2, "Ad": "Doçent", "KisaAd": "Doç.", "Carpan": 0.9 },
+    { "id": 3, "Ad": "Doktor Öğretim Üyesi", "KisaAd": "Dr. Öğr. Üyesi", "Carpan": 0.8 },
+    { "id": 4, "Ad": "Öğretim Görevlisi / Araştırma Görevlisi", "KisaAd": "Öğr. Gör.", "Carpan": 0.7 }
+  ],
+  "CalismaAlani": [
+    { "id": 1, "Ad": "A1", "Aciklama": "Eğitim Bilimleri, Fen Bilimleri ve Matematik, Mühendislik, Sağlık Bilimleri, Ziraat, Orman ve Su Ürünleri" },
+    { "id": 2, "Ad": "A2", "Aciklama": "Filoloji, Hukuk, İlahiyat, Sosyal, Beşeri ve İdari Bilimler, Spor Bilimleri" },
+    { "id": 3, "Ad": "A3", "Aciklama": "Mimarlık, Planlama ve Tasarım" },
+    { "id": 4, "Ad": "A4", "Aciklama": "Güzel Sanatlar" }
+  ],
+  "YayinAnaKategori": [
+    { "id": 1, "Ad": "Proje", "MaxPuan": 20, "MinPuan": 0 },
+    { "id": 2, "Ad": "Araştırma", "MaxPuan": 15, "MinPuan": 0 },
+    { "id": 3, "Ad": "Yayın", "MaxPuan": 30, "MinPuan": 0 },
+    { "id": 4, "Ad": "Tasarım", "MaxPuan": 15, "MinPuan": 0 },
+    { "id": 5, "Ad": "Sergi", "MaxPuan": 15, "MinPuan": 0 },
+    { "id": 6, "Ad": "Patent", "MaxPuan": 30, "MinPuan": 0 },
+    { "id": 7, "Ad": "Atıf", "MaxPuan": 30, "MinPuan": 0 },
+    { "id": 8, "Ad": "Tebliğ", "MaxPuan": 20, "MinPuan": 0 },
+    { "id": 9, "Ad": "Ödül", "MaxPuan": 20, "MinPuan": 0 }
+  ],
+  "YayinAltKategori": [
+    { "id": 1, "UstKategoriId": 1, "A1": 80, "A2": 80, "A3": 80, "A4": 80, "Ad": "TÜBİTAK 1001, 1003, 1004, 1007, 1505, 2244, 3501, SAYEM, COST, Uluslararası İkili İşbirliği Programları", "KisaAd": "TÜBİTAK Uluslararası İkili" },
+    { "id": 2, "UstKategoriId": 1, "A1": 70, "A2": 70, "A3": 70, "A4": 70, "Ad": "TÜBİTAK 1005, 3001", "KisaAd": "TÜBİTAK 1005, 3001" },
+    { "id": 3, "UstKategoriId": 1, "A1": 100, "A2": 100, "A3": 100, "A4": 100, "Ad": "H2020 projesi", "KisaAd": "H2020 Projesi" },
+    { "id": 4, "UstKategoriId": 1, "A1": 40, "A2": 40, "A3": 40, "A4": 40, "Ad": "Diğer uluslararası özel veya resmi kurum ve kuruluşlar tarafından desteklenmiş ve destek süresi dokuz aydan az olmayan Ar-Ge niteliğini haiz proje", "KisaAd": "Uluslararası Ar-Ge Projesi" },
+    { "id": 5, "UstKategoriId": 1, "A1": 20, "A2": 20, "A3": 20, "A4": 20, "Ad": "Diğer ulusal kamu veya özel kurum ve kuruluşlar tarafından desteklenmiş ve destek süresi dokuz aydan az olmayan Ar-Ge niteliğini haiz proje", "KisaAd": "Ulusal Ar-Ge Projesi" },
+    { "id": 6, "UstKategoriId": 2, "A1": 15, "A2": 15, "A3": 15, "A4": 15, "Ad": "Yurt dışı araştırma", "KisaAd": "Yurt Dışı Araştırma" },
+    { "id": 7, "UstKategoriId": 2, "A1": 10, "A2": 10, "A3": 10, "A4": 10, "Ad": "Yurt içi araştırma", "KisaAd": "Yurt İçi Araştırma" },
+    { "id": 8, "UstKategoriId": 3, "A1": 60, "A2": 80, "A3": 60, "A4": 80, "Ad": "SCI, SCI-Expanded, SSCI ve AHCI kapsamındaki dergilerde yayımlanmış araştırma makalesi", "KisaAd": "SCI/SSCI/AHCI Araştırma" },
+    { "id": 9, "UstKategoriId": 3, "A1": 30, "A2": 40, "A3": 30, "A4": 40, "Ad": "SCI, SCI-Expanded, SSCI ve AHCI kapsamındaki dergilerde yayımlanmış derleme makale (müstakil yayımlanmış olma şartıyla editöre mektup, yorum vaka takdimi, teknik not, araştırma notu ve kitap eleştirisi)", "KisaAd": "SCI/SSCI/AHCI Derleme" },
+    { "id": 10, "UstKategoriId": 3, "A1": 20, "A2": 25, "A3": 20, "A4": 25, "Ad": "Alan endeksleri (ÜAK tarafından tanımlanan alanlar için) kapsamındaki dergilerde yayımlanmış araştırma makalesi", "KisaAd": "Alan Endeksi Araştırma" },
+    { "id": 11, "UstKategoriId": 3, "A1": 15, "A2": 20, "A3": 15, "A4": 20, "Ad": "Diğer uluslararası hakemli dergilerde yayımlanmış araştırma makalesi", "KisaAd": "Uluslararası Hakemli Makale" },
+    { "id": 12, "UstKategoriId": 3, "A1": 15, "A2": 20, "A3": 15, "A4": 20, "Ad": "ULAKBİM TR Dizin tarafından taranan ulusal hakemli dergilerde yayımlanmış araştırma makalesi", "KisaAd": "TR Dizin Makale" },
+    { "id": 13, "UstKategoriId": 3, "A1": 25, "A2": 25, "A3": 25, "A4": 25, "Ad": "SCI, SCI-Expanded, SSCI ve AHCI kapsamındaki dergilerde editörlük", "KisaAd": "SCI/SSCI/AHCI Editörlük" },
+    { "id": 14, "UstKategoriId": 3, "A1": 15, "A2": 15, "A3": 15, "A4": 15, "Ad": "Alan endeksleri (ÜAK tarafından tanımlanan alanlar için) kapsamındaki dergilerde editörlük", "KisaAd": "Alan Endeksi Editörlük" },
+    { "id": 15, "UstKategoriId": 3, "A1": 10, "A2": 10, "A3": 10, "A4": 10, "Ad": "Diğer uluslararası hakemli dergilerde editörlük", "KisaAd": "Uluslararası Editörlük" },
+    { "id": 16, "UstKategoriId": 3, "A1": 10, "A2": 10, "A3": 10, "A4": 10, "Ad": "ULAKBİM TR Dizin tarafından taranan ulusal hakemli dergilerde editörlük", "KisaAd": "TR Dizin Editörlük" },
+    { "id": 17, "UstKategoriId": 3, "A1": 100, "A2": 100, "A3": 100, "A4": 100, "Ad": "Tanınmış uluslararası yayınevleri tarafından yayımlanmış özgün bilimsel kitap", "KisaAd": "Uluslararası Bilimsel Kitap" },
+    { "id": 18, "UstKategoriId": 3, "A1": 60, "A2": 60, "A3": 60, "A4": 60, "Ad": "Tanınmış uluslararası yayınevleri tarafından yayımlanmış özgün bilimsel kitap editörlüğü", "KisaAd": "Uluslararası Kitap Editörlüğü" },
+    { "id": 19, "UstKategoriId": 3, "A1": 25, "A2": 25, "A3": 25, "A4": 25, "Ad": "Tanınmış uluslararası yayınevleri tarafından yayımlanmış özgün bilimsel kitaplarda bölüm yazarlığı (Aynı kitapta en çok iki bölüm değerlendirmeye alınır.)", "KisaAd": "Uluslararası Kitap Bölümü" },
+    { "id": 20, "UstKategoriId": 3, "A1": 50, "A2": 50, "A3": 50, "A4": 50, "Ad": "Özgün bilimsel kitap", "KisaAd": "Ulusal Bilimsel Kitap" },
+    { "id": 21, "UstKategoriId": 3, "A1": 15, "A2": 15, "A3": 15, "A4": 15, "Ad": "Özgün bilimsel kitaplarda bölüm yazarlığı (Aynı kitapta en çok iki bölüm değerlendirmeye alınır.)", "KisaAd": "Ulusal Kitap Bölümü" },
+    { "id": 25, "UstKategoriId": 4, "A1": 15, "A2": 15, "A3": 15, "A4": 15, "Ad": "Endüstriyel, çevresel (bina, peyzaj ve iç mekan) veya grafiksel tasarım; sahne, moda (kumaş, aksesuar veya giysi tasarımı) veya çalgı tasarımı", "KisaAd": "Tasarım Çalışması" },
+    { "id": 26, "UstKategoriId": 5, "A1": 0, "A2": 0, "A3": 0, "A4": 30, "Ad": "Özgün yurt dışı bireysel etkinlik (sergi, bienal, trienal, gösteri, dinleti, festival ve gösterim)", "KisaAd": "Yurt Dışı Bireysel Etkinlik" },
+    { "id": 27, "UstKategoriId": 5, "A1": 0, "A2": 0, "A3": 0, "A4": 15, "Ad": "Özgün yurt içi bireysel etkinlik (sergi, bienal, trienal, gösteri, dinleti, festival ve gösterim)", "KisaAd": "Yurt İçi Bireysel Etkinlik" },
+    { "id": 28, "UstKategoriId": 5, "A1": 0, "A2": 0, "A3": 0, "A4": 15, "Ad": "Özgün yurt dışı grup/karma/toplu etkinlik (sergi, bienal, trienal, gösteri, dinleti, festival ve gösterim)", "KisaAd": "Yurt Dışı Grup Etkinlik" },
+    { "id": 29, "UstKategoriId": 5, "A1": 0, "A2": 0, "A3": 0, "A4": 8, "Ad": "Özgün yurt içi grup/karma/toplu etkinlik (sergi, bienal, trienal, gösteri, dinleti, festival ve gösterim)", "KisaAd": "Yurt İçi Grup Etkinlik" },
+    { "id": 30, "UstKategoriId": 6, "A1": 100, "A2": 100, "A3": 100, "A4": 100, "Ad": "Uluslararası patent", "KisaAd": "Uluslararası Patent" },
+    { "id": 31, "UstKategoriId": 6, "A1": 60, "A2": 60, "A3": 60, "A4": 60, "Ad": "Ulusal patent", "KisaAd": "Ulusal Patent" },
+    { "id": 32, "UstKategoriId": 7, "A1": 4, "A2": 6, "A3": 4, "A4": 6, "Ad": "SCI, SCI-Expanded, SSCI ve AHCI kapsamındaki dergilerde yayımlanmış makalelerde atıf", "KisaAd": "SCI/SSCI/AHCI Atıf" },
+    { "id": 33, "UstKategoriId": 7, "A1": 1.5, "A2": 3, "A3": 1.5, "A4": 3, "Ad": "Alan endeksleri (varsa) ve kapsamındaki dergilerde yayımlanmış makalelerde atıf", "KisaAd": "Alan Endeksi Atıf" },
+    { "id": 34, "UstKategoriId": 7, "A1": 1, "A2": 2, "A3": 1, "A4": 2, "Ad": "Diğer uluslararası hakemli dergilerde yayımlanmış makalelerde atıf", "KisaAd": "Uluslararası Makale Atıf" },
+    { "id": 35, "UstKategoriId": 7, "A1": 1, "A2": 2, "A3": 1, "A4": 2, "Ad": "ULAKBİM tarafından taranan ulusal hakemli dergilerde yayımlanmış makalelerde atıf", "KisaAd": "TR Dizin Atıf" },
+    { "id": 36, "UstKategoriId": 7, "A1": 4, "A2": 8, "A3": 4, "A4": 8, "Ad": "Tanınmış uluslararası yayınevleri tarafından yayımlanmış özgün bilimsel kitapta atıf", "KisaAd": "Uluslararası Kitap Atıf" },
+    { "id": 37, "UstKategoriId": 7, "A1": 2, "A2": 4, "A3": 2, "A4": 4, "Ad": "Özgün bilimsel kitapta atıf", "KisaAd": "Ulusal Kitap Atıf" },
+    { "id": 38, "UstKategoriId": 7, "A1": 0, "A2": 0, "A3": 0, "A4": 8, "Ad": "Güzel sanatlardaki eserlerin uluslararası kaynak veya yayın organlarında yer alması veya gösterime ya da dinletime girmesi", "KisaAd": "Uluslararası Güzel Sanatlar Atıf" },
+    { "id": 39, "UstKategoriId": 7, "A1": 0, "A2": 0, "A3": 0, "A4": 4, "Ad": "Güzel sanatlardaki eserlerin ulusal kaynak veya yayın organlarında yer alması veya gösterime ya da dinletime girmesi", "KisaAd": "Ulusal Güzel Sanatlar Atıf" },
+    { "id": 40, "UstKategoriId": 8, "A1": 15, "A2": 15, "A3": 15, "A4": 15, "Ad": "Hakemli uluslararası bilimsel konferansta, sempozyumda veya kongrede sözlü olarak sunulan ve bunların kitabında yayımlanan tam bildiri", "KisaAd": "Uluslararası Tam Bildiri" },
+    { "id": 41, "UstKategoriId": 9, "A1": 100, "A2": 100, "A3": 100, "A4": 100, "Ad": "YÖK Yılın Doktora Tezi Ödülü", "KisaAd": "YÖK Doktora Tez Ödülü" },
+    { "id": 42, "UstKategoriId": 9, "A1": 100, "A2": 100, "A3": 100, "A4": 100, "Ad": "TÜBİTAK Bilim Ödülü", "KisaAd": "TÜBİTAK Bilim Ödülü" },
+    { "id": 43, "UstKategoriId": 9, "A1": 100, "A2": 100, "A3": 100, "A4": 100, "Ad": "TÜBA Akademi Ödülü", "KisaAd": "TÜBA Akademi Ödülü" },
+    { "id": 44, "UstKategoriId": 9, "A1": 40, "A2": 40, "A3": 40, "A4": 40, "Ad": "Yurt dışı kurum veya kuruluşlardan alınan bilim ödülü", "KisaAd": "Yurt Dışı Bilim Ödülü" },
+    { "id": 45, "UstKategoriId": 9, "A1": 20, "A2": 20, "A3": 20, "A4": 20, "Ad": "Yurt içi kurum veya kuruluşlardan alınan bilim ödülü", "KisaAd": "Yurt İçi Bilim Ödülü" },
+    { "id": 46, "UstKategoriId": 9, "A1": 0, "A2": 0, "A3": 0, "A4": 40, "Ad": "Uluslararası jürili sürekli düzenlenen güzel sanat etkinliklerinde veya yarışmalarında eserlere verilen uluslararası derece ödülü (mansiyon hariç)", "KisaAd": "Uluslararası Güzel Sanatlar Ödülü" },
+    { "id": 47, "UstKategoriId": 9, "A1": 0, "A2": 0, "A3": 0, "A4": 20, "Ad": "Ulusal jürili sürekli düzenlenen güzel sanat etkinliklerinde veya yarışmalarında eserlere verilen ulusal derece ödülü (mansiyon hariç)", "KisaAd": "Ulusal Güzel Sanatlar Ödülü" },
+    { "id": 48, "UstKategoriId": 9, "A1": 0, "A2": 0, "A3": 20, "A4": 0, "Ad": "Mevzuatı çerçevesinde, ilgili kuruluşlar tarafından sürekli düzenlenen planlama, mimarlık, kentsel tasarım, peyzaj tasarımı, iç mimari tasarım, endüstri ürünleri tasarımı ve mimarlık temel alanındaki diğer yarışmalarda derece ödülü (mansiyon hariç)", "KisaAd": "Mimarlık/Tasarım Ödülü" }
+  ],
+  "HesaplamaMetrikleri": {
+    "KisiSayisi": [
+      { "Sayi": 1, "Carpan": 1 },
+      { "Sayi": 2, "Carpan": 0.8 },
+      { "Sayi": 3, "Carpan": 0.6 },
+      { "Sayi": 4, "Carpan": 0.45 },
+      { "Sayi": 5, "Carpan": 0.2 }
+    ]
+  },
+  "GorevTur": [
+    { "id": 1, "Ad": "Yürütücü", "Carpan": 1 },
+    { "id": 2, "Ad": "Araştırmacı", "Carpan": 0.5 },
+    { "id": 3, "Ad": "Bursiyer", "Carpan": 0.5 }
+  ],
+  "CeyreklikSinif": [
+    { "id": 1, "Ad": "Q1", "Carpan": 1 },
+    { "id": 2, "Ad": "Q2", "Carpan": 0.8 },
+    { "id": 3, "Ad": "Q3", "Carpan": 0.5 },
+    { "id": 4, "Ad": "Q4", "Carpan": 0.25 }
+  ],
+  "DergiTur": [
+    { "id": 1, "Ad": "Çok editörlü (Rol: baş editör)", "Carpan": 0 },
+    { "id": 2, "Ad": "Tek editörlü", "Carpan": 0 }
+  ],
+  "Duyurular": [
+    {
+      "id": 1,
+      "Baslik": "Duyuru",
+      "Metin": "Akademik teşvik başvuruları için çalışmalarınızı eklemeyi unutmayınız."
+    },
+    {
+      "id": 2,
+      "Baslik": "Yenilendi ",
+      "Metin": "2026 yılı zamlar eklendi"
+    }
+  ],
+  "BazeTutarlar": {
+    "2025": 5687,
+    "2026": 8653
+  },
+  "Versiyonlar": [
+    {
+      "VersiyonNo": "1.0.0",
+      "IsRequireUpdate": false,
+      "Tarih": "2026-03-25",
+      "Aciklama": "Uygulamanın ilk sürümüdür. Bu uygulama akademiş teşvik hesaplmasındaki karmaşıklığı  kolaylaştırmak için tasarlanmıştır."
+    }
+  ]
+}
