@@ -121,7 +121,7 @@
   ],
   "AppPolicy": {
   "MinAppVersion": "1.1.0",
-  "LatestAppVersion": "1.3.0",
+  "LatestAppVersion": "1.0.0",
   "ForceUpdate": true,
   "StoreUrlAndroid": "https://play.google.com/store/apps/details?id=...",
   "StoreUrlIos": "https://apps.apple.com/app/id..."
