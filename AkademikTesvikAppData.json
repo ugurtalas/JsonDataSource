@@ -105,6 +105,11 @@
       "id": 2,
       "Baslik": "Yenilendi ",
       "Metin": "2026 yılı zamlar eklendi"
+    },
+    {
+      "id": 3,
+      "Baslik": "Mustafa ",
+      "Metin": "Bu işe girelim"
     }
   ],
   "BazeTutarlar": {
@@ -113,7 +118,7 @@
   },
   "Versiyonlar": [
     {
-      "VersiyonNo": "1.0.1",
+      "VersiyonNo": "1.0.2",
       "IsRequireUpdate": false,
       "Tarih": "2026-03-25",
       "Aciklama": "Uygulamanın ilk sürümüdür. Bu uygulama akademiş teşvik hesaplmasındaki karmaşıklığı  kolaylaştırmak için tasarlanmıştır."
