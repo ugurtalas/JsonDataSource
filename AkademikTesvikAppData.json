@@ -120,7 +120,7 @@
     }
   ],
   "AppPolicy": {
-  "MinAppVersion": "1.1.0",
+  "MinAppVersion": "1.0.0",
   "LatestAppVersion": "1.0.0",
   "ForceUpdate": true,
   "StoreUrlAndroid": "https://play.google.com/store/apps/details?id=...",
