@@ -99,18 +99,9 @@
     {
       "id": 1,
       "Baslik": "Duyuru",
-      "Metin": "Akademik teşvik başvuruları için çalışmalarınızı eklemeyi unutmayınız."
-    },
-    {
-      "id": 2,
-      "Baslik": "Yenilendi ",
-      "Metin": "2026 yılı zamlar eklendi"
-    },
-    {
-      "id": 3,
-      "Baslik": "Mustafa ",
-      "Metin": "Bu işe girelim"
+      "Metin": "Akademik teşvik hesaplama uygulamamız yenilendi."
     }
+  
   ],
   "BazeTutarlar": {
     "2025": 5687,
